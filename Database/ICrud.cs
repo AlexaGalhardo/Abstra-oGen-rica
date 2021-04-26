@@ -13,10 +13,5 @@ namespace Abstra_oGen_rica.Database
         T Consultar(int id); 
 
      }
-    interface IDB
-    {
-        Models.ZzyYHTbz1sContext DB{get ;}
-        void Commit();
-
-    }
+ 
 }
